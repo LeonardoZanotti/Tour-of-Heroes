@@ -23,7 +23,7 @@ $ npm install
 # Run the project
 $ npm start         # ng serve
 
-The project is on `http://localhost:4200/`
+The project is on http://localhost:4200/
 ```
 
 ## Development server
