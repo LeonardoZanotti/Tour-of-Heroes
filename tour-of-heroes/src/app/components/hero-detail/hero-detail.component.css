@@ -1,0 +1,13 @@
+.hero-detail {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.hero-detail h2 span {
+    color: #DD3333;
+}
+
+.fields {
+    margin: 10px 0px;
+}

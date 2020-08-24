@@ -1,0 +1,34 @@
+.messageDiv {
+    display: block;
+    position: relative;
+    float: right;
+    background-color: #AAAAAA;
+    padding: 1em;
+    border-style: solid;
+    border-width: 1px;;
+    border-radius: 4px;
+    width: 25em;
+    height: 20em;
+}
+
+.messageDiv h2 {
+    margin: 0px 0px 1em 0px;
+    width: 5em;
+    display: inline-block;
+}
+
+.messageDiv .clear {
+    display: flex;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.messageDiv button:hover {
+    background-color: #CFD8DC;
+    font-weight: 700;
+}

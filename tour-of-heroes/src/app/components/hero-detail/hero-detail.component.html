@@ -1,0 +1,29 @@
+<div *ngIf="hero" class="hero-detail">
+    <h2><span>{{ hero.name | uppercase }}</span> Details</h2>
+    
+    <mat-form-field>
+        <div class="fields">
+            <span>
+                Id: {{ hero.id }}
+            </span>
+        </div>
+        <div class="fields">
+            <label>
+                Name:
+                <input [(ngModel)]="hero.name" placeholder="Name" />
+            </label>
+        </div>
+        <div class="fields">
+            <label>
+                Level:
+                <input [(ngModel)]="hero.level" placeholder="Level" />
+            </label>
+        </div>
+        <div class="fields">
+            <label>
+                Description:
+                <input [(ngModel)]="hero.description" placeholder="Description" />
+            </label>
+        </div>
+    </mat-form-field>
+</div>
