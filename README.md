@@ -1,6 +1,7 @@
 # TourOfHeroes
 
 The Tour of Heroes is a angular starting project to learn angular. The tutorial page of the project is [here](https://angular.io/tutorial)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Requisites
