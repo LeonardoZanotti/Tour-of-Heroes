@@ -21,6 +21,7 @@ body, input[type="text"], button {
 }
 
 nav.navbar {
+    display: flex;
     background-color: #336699;
     width: 24em;
     height: 3em;
@@ -29,6 +30,8 @@ nav.navbar {
     border-color: #225588;
     border-width: 2px;
     margin-bottom: 2em;
+    margin-left: 1em;
+    padding: 0px;
 }
 
 nav.navbar a {
@@ -36,13 +39,33 @@ nav.navbar a {
     position: relative;
     color: #99CCFF;
     text-decoration: none;
-    width: 10em;
-    height: 1em;
-    padding: 1em;
+    width: 9em;
+    height: 2em;
+    padding: 0.25em 1em 1em 1em;
+    margin: 0px 0.25em;
+    border-radius: 8px;
     text-align: center;
+    font-size: 1.25em;
 }
 
 nav.navbar a:hover {
     color: #AADDFF;
     background-color: #4477AA;
+}
+
+@media (max-width: 576px) {
+    nav.navbar {
+        margin: 0.5em 1em;
+        width: 12em;
+        height: 6em;
+    }
+    
+    nav.navbar a {
+        font-size: 1em;
+        margin: 0.1em;
+        padding: 0.5em;
+        width: 11.5em;
+        height: 2.5em;
+
+    }
 }

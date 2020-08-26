@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { HeroCompanyService } from './services/heroCompany/hero-company.service';
@@ -27,6 +27,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     BrowserAnimationsModule
   ],
   providers: [HeroCompanyService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
