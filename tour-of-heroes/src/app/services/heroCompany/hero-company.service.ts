@@ -20,4 +20,13 @@ export class HeroCompanyService {
       return heroes;
     }
   }
+
+  show(id: number): Observable<Hero> {
+    const theHero = of(Heroes.find(hero => hero.id === id));
+
+    if (theHero) {
+      this.messageService.add(`HeroService: Fetched hero with id ${id}!`);
+      return theHero;
+    }
+  }
 }

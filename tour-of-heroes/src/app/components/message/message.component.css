@@ -1,6 +1,8 @@
 .messageDiv {
     display: block;
-    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 75%;
     float: right;
     background-color: #AAAAAA;
     padding: 1em;

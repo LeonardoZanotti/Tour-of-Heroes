@@ -16,7 +16,7 @@
         <div class="fields">
             <label>
                 Level:
-                <input [(ngModel)]="hero.level" placeholder="Level" />
+                <input type="number" class="levelInput" [(ngModel)]="hero.level" placeholder="Level" />
             </label>
         </div>
         <div class="fields">
@@ -27,3 +27,5 @@
         </div>
     </mat-form-field>
 </div>
+
+<button (click)="goBack()" class="goback">Go back</button>

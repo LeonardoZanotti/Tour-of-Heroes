@@ -19,3 +19,30 @@ body, input[type="text"], button {
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav.navbar {
+    background-color: #336699;
+    width: 24em;
+    height: 3em;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #225588;
+    border-width: 2px;
+    margin-bottom: 2em;
+}
+
+nav.navbar a {
+    display: inline-block;
+    position: relative;
+    color: #99CCFF;
+    text-decoration: none;
+    width: 10em;
+    height: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+nav.navbar a:hover {
+    color: #AADDFF;
+    background-color: #4477AA;
+}

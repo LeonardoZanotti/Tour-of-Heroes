@@ -53,3 +53,9 @@ h2 {
     margin-right: 0.7em;
     text-align: center;
 }
+
+.heroes-list li.selected {
+    background-color: #AA4444;
+    color: #EEEEEE;
+    font-weight: 700;
+}
