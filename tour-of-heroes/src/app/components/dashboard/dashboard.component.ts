@@ -21,7 +21,7 @@ export class DashboardComponent implements OnInit {
   }
 
   getHeroes(): void {
-    this.messageService.add('Dashboard says: Welcome to the hero dashboard :D');
+    this.messageService.add('Dashboard says: Welcome to the hero dashboard');
     this.heroService.index().subscribe(heroes => {
       const i = Math.floor(Math.random() * 17);
       this.heroes = heroes.slice(i, i + 4);
